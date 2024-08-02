@@ -6,7 +6,7 @@
 import Foundation
 import Sentry
 
-class LaudspeakerSessionManager {
+public class LaudspeakerSessionManager {
     private let storage: LaudspeakerNewStorage!
 
     private let anonLock = NSLock()
