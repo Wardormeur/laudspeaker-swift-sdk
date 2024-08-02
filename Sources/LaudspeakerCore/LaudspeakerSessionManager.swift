@@ -11,7 +11,7 @@ class LaudspeakerSessionManager {
 
     private let anonLock = NSLock()
     private let distinctLock = NSLock()
-    init(_ config: LaudspeakerConfig) {
+    public init(_ config: LaudspeakerConfig) {
         storage = LaudspeakerNewStorage(config)
     }
 
