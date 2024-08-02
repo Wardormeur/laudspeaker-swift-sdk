@@ -54,7 +54,7 @@ public class LaudspeakerCore {
     private var reachability: Reachability?
     
     
-    private var sessionManager: LaudspeakerSessionManager?
+    public var sessionManager: LaudspeakerSessionManager?
     private var sessionId: String?
     private var capturedAppInstalled = false
     private var appFromBackground = false
